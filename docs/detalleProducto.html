@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Detalle</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="assets/style/settings/base.css">
+
+</head>
+
+<body>
+
+    <main>
+        <header class="o-header">
+            <a href="index.html"><h1 class="a-title"><i class="fa-solid fa-gamepad icon a-icon"></i> Alura<strong
+                class="a-title -secundaryColor">Geek</strong></h1></a>
+
+            <button class="a-button -fondoClaro" type="submit" id="btn-login" onclick="window.location.href='login.html'">Login</button>
+        </header>
+        <section class="o-products" data-servicios ="detalleCard">
+
+        </section>
+        <section class="o-products" data-servicios ="similares">
+            <div class="o-products__title">
+                <h1 class="a-title -secundaryColor">Productos Similares</h1>
+            </div>
+        </section>
+        <section class="o-footer">
+            <div class="o-footer__lists">
+                <h1 class="a-title"><i class="fa-solid fa-gamepad icon a-icon"></i> Alura<strong
+                        class="a-title -secundaryColor">Geek</strong></h1>
+                <div class="o-footer__links">
+                    <a href="" class="a-button -link -secundary ">Quienes somos</a>
+                    <a href="" class="a-button -link -secundary">Política de privacidad</a>
+                    <a href="" class="a-button -link -secundary">Programa de fidelidad</a>
+                    <a href="" class="a-button -link -secundary">Nuestras tiendas</a>
+                    <a href="" class="a-button -link -secundary">Quiero ser franquiciado</a>
+                    <a href="" class="a-button -link -secundary">Anúncie aquí</a>
+                </div>
+            </div>
+            <form class="m-form" id="hableNosotros" data-form="hableNosotros">
+                <legend class="m-form__title">
+                    <h1 class="a-title -secundaryColor m-form__title">Hable con nosotros</h1>
+                </legend>
+                <div class="m-form__imput">
+                    <input id="nombre" class="a-input" type="text" placeholder="Nombre" data-tipo="usuario">
+                    <label for="nombre" class="a-label">usuario</label>
+                    <span class="a-input-mensaje"></span>
+                </div>
+                <div class="m-form__imput">
+                    <textarea class="a-input" name="" id="mensaje" placeholder="mensaje" rows="6" ></textarea>
+                    <label for="mensaje" class="a-label">Mensaje</label>
+                    <span class="a-input-mensaje"></span>
+                </div>
+                <button class="a-button" type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+        <footer class="a-footer">
+            <h1>Desarrollado por Angel Sanchez <br>
+                2023</h1>
+        </footer>
+        
+    </main>
+
+    <script type="module" src="js/App.js"></script>
+    <script type="module" src="controllers/detalleController.js"></script>
+
+</body>
+
+
+
+</html>

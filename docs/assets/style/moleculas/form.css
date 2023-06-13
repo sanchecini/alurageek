@@ -1,0 +1,52 @@
+.m-form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    align-items: flex-start;
+    gap: 1rem;
+    
+}
+
+.m-form.-centerItem{
+    align-items: center;
+}
+.m-form__title{
+    text-align: left;
+    width: auto;
+    
+}
+
+
+.m-form__imput{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-weight: var(--font-weigth-input);
+    
+}
+
+@media screen and (min-width:768px){
+    .m-form{
+
+       align-items: flex-start;
+       width: 60%;
+        
+    }
+}
+@media screen and (min-width:1440px){
+    .m-form{
+
+       align-items: flex-start;
+       width: 45%
+        
+    }
+    .m-form.-loging{
+        max-width: 423px;
+    }
+    .m-form__title{
+        font-size: 16px;
+        font-size: var(--font-size-base);
+    }
+}

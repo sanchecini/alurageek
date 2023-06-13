@@ -1,0 +1,47 @@
+@import url(reset.css);
+@import url(variables.css);
+
+@import url(../atom/button.css);
+
+@import url(../atom/label.css);
+@import url(../atom/icons.css);
+@import url(../atom/lists.css);
+@import url(../atom/text.css);
+@import url(../atom/footer.css);
+@import url(../atom/input.css);
+@import url(../atom/img.css);
+@import url(../atom/select.css);
+
+@import url(../moleculas/logo.css);
+@import url(../moleculas/hero.css);
+@import url(../moleculas/Cards.css);
+@import url(../moleculas/form.css);
+
+
+@import url(../organismos/productos.css);
+@import url(../organismos/header.css);
+@import url(../organismos/footer.css);
+@import url(../organismos/hero.css);
+@import url(../organismos/loging.css);
+
+
+
+body {
+  box-sizing: border-box;
+  background-color:var(--secondary-color-50);
+  cursor: pointer;
+  font-family: var(--font-family-base);
+  margin: 0;
+  padding: 0;
+  line-height: var(--line-height-base);
+  width: 100vw;
+}
+
+.main{
+  padding: 0 0 0 0px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+

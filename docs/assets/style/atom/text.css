@@ -1,0 +1,60 @@
+.a-title{
+    color: var(--primary-color-700);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-lg);
+
+    
+}
+.a-title.-detalle{
+    font-weight: var(--font-weight-medium);
+    font-size: 22px;
+    text-align: left;
+}
+.a-title.-left{
+    text-align: left;
+    align-items:baseline;
+}
+
+.a-title.-secundaryColor{
+    color: var(--secundary-color-800);
+}
+
+.a-title.-subtitle{
+    
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base)
+}
+
+.a-descripcion{
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-base);
+}
+
+
+
+@media screen and (min-width:768px){
+    .a-descripcion{
+        font-size: var(--font-size-lg);
+    }    
+    .a-title{
+        display: flex;
+        align-items: center;
+    
+        
+    }
+
+}
+@media screen and (min-width:1440px){
+    .a-title{
+
+        font-size: var(--font-size-xl);
+        
+    }
+    .a-title.-left.-carprincipal{
+        font-size: 52px;
+    }
+      
+}

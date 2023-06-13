@@ -1,0 +1,16 @@
+.a-lists{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
+
+
+
+.-icon{
+    display: flex;
+    gap: 24px;
+}
+
+

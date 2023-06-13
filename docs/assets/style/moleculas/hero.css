@@ -1,0 +1,13 @@
+.m-hero__title{
+    color: var(--color-withe);
+}
+
+.m-hero__descripcion{
+    color: var(--color-withe);
+}
+@media screen and (min-width:768px){
+    .m-hero__title{
+        font-size: var(--font-size-xxl);
+    }
+    
+}

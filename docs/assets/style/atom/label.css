@@ -1,0 +1,11 @@
+.a-label{
+    position: absolute;
+    width: auto;
+    top: 16px;
+    left: 1rem;
+    color: #A2A2A2;;
+    font-weight: var(--font-weigth-parrafo);
+    font-size: var(--font-size-medium);
+    line-height: 20px;
+}
+
